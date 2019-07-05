@@ -17,6 +17,8 @@ Thats all — now you can use all the SynthDefs from this quark.
 
 ## Included synths
 ### `crdgKick`
+<img alt="crdgKick" src="media/crdgKick.gif" align="right" width="407px"/>
+
 ```supercollider
 (
   // Bass kick with sine, noise and filters
