@@ -1,4 +1,4 @@
-TidalCartridge {
+Cartridge {
   *new {|server|
     var s = server ? Server.default;
 
