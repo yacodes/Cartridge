@@ -1,8 +1,8 @@
 # Cartridge
-> Set of supercollider synthesizers, packed in the usable, encapsulated Class
+> Set of supercollider synthesizers, packed in a usable, encapsulated Class
 
 ## Installation
-Since this project is under heavily development — installation is made through [Git](https://git-scm.com/) and [Quarks](https://github.com/supercollider-quarks/quarks):
+Since this project is under heavy development — installation is made through [Git](https://git-scm.com/) and [Quarks](https://github.com/supercollider-quarks/quarks):
 ```supercollider
 Quarks.install("https://github.com/aleksandryakunichev/Cartridge.git");
 ```
@@ -13,7 +13,7 @@ This action will download the whole repository to your's `Platform.userExtension
 ```supercollider
 Cartridge(Server.local); // or s, or whatever server you need
 ```
-Thats all — now you can use all the SynthDefs from this quark.
+That's all — now you can use all the SynthDefs from this quark.
 
 ## Included synths
 ### `crdgKick`
@@ -21,7 +21,7 @@ Thats all — now you can use all the SynthDefs from this quark.
 
 ```supercollider
 (
-  // Bass kick with sine, noise and filters
+  // Bass kick with sine, noise, and filters
   Synth.new(\crdgKick, [
     \n, 110,
     out, Out.ar,
